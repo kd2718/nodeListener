@@ -3,10 +3,14 @@
 import requests
 import json
 import websocket
+import random
 
 url = 'http://127.0.0.1:8080'
 
-payload = {'myNum': 2718}
+payload = {
+    'xData': random.randint(0,100),
+    'yData': random.randint(0,100)
+}
 headers = {'content-type': 'application/json'}
 
 ws = websocket.WebSocket()

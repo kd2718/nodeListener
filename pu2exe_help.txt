@@ -1,0 +1,530 @@
+running py2exe
+*** searching for required modules ***
+*** parsing results ***
+creating python loader for extension '_ctypes' (C:\Users\Kodon\Anaconda\DLLs\_ctypes.pyd -> _ctypes.pyd)
+creating python loader for extension 'win32pipe' (C:\Users\Kodon\Anaconda\lib\site-packages\win32\win32pipe.pyd -> win32pipe.pyd)
+creating python loader for extension 'select' (C:\Users\Kodon\Anaconda\DLLs\select.pyd -> select.pyd)
+creating python loader for extension 'unicodedata' (C:\Users\Kodon\Anaconda\DLLs\unicodedata.pyd -> unicodedata.pyd)
+creating python loader for extension 'win32evtlog' (C:\Users\Kodon\Anaconda\lib\site-packages\win32\win32evtlog.pyd -> win32evtlog.pyd)
+creating python loader for extension 'win32wnet' (C:\Users\Kodon\Anaconda\lib\site-packages\win32\win32wnet.pyd -> win32wnet.pyd)
+creating python loader for extension '_hashlib' (C:\Users\Kodon\Anaconda\DLLs\_hashlib.pyd -> _hashlib.pyd)
+creating python loader for extension 'bz2' (C:\Users\Kodon\Anaconda\DLLs\bz2.pyd -> bz2.pyd)
+creating python loader for extension '_ssl' (C:\Users\Kodon\Anaconda\DLLs\_ssl.pyd -> _ssl.pyd)
+creating python loader for extension '_cffi_backend' (C:\Users\Kodon\Anaconda\lib\site-packages\_cffi_backend.pyd -> _cffi_backend.pyd)
+creating python loader for extension 'pyexpat' (C:\Users\Kodon\Anaconda\DLLs\pyexpat.pyd -> pyexpat.pyd)
+creating python loader for extension 'win32api' (C:\Users\Kodon\Anaconda\lib\site-packages\win32\win32api.pyd -> win32api.pyd)
+creating python loader for extension '_socket' (C:\Users\Kodon\Anaconda\DLLs\_socket.pyd -> _socket.pyd)
+*** finding dlls needed ***
+*** create binaries ***
+*** byte compile python files ***
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\ConfigParser.py to ConfigParser.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\Cookie.py to Cookie.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\Queue.py to Queue.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\StringIO.py to StringIO.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\UserDict.py to UserDict.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\_LWPCookieJar.py to _LWPCookieJar.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\_MozillaCookieJar.py to _MozillaCookieJar.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\__future__.py to __future__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\_abcoll.py to _abcoll.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\_osx_support.py to _osx_support.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\_strptime.py to _strptime.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\_threading_local.py to _threading_local.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\_weakrefset.py to _weakrefset.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\abc.py to abc.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\atexit.py to atexit.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\base64.py to base64.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\bdb.py to bdb.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\bisect.py to bisect.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\calendar.py to calendar.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\cgi.py to cgi.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\cmd.py to cmd.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\codecs.py to codecs.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\collections.py to collections.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\contextlib.py to contextlib.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\cookielib.py to cookielib.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\copy.py to copy.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\copy_reg.py to copy_reg.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\ctypes\__init__.py to ctypes\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\ctypes\_endian.py to ctypes\_endian.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\ctypes\macholib\__init__.py to ctypes\macholib\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\ctypes\macholib\dyld.py to ctypes\macholib\dyld.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\ctypes\macholib\dylib.py to ctypes\macholib\dylib.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\ctypes\macholib\framework.py to ctypes\macholib\framework.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\ctypes\util.py to ctypes\util.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\difflib.py to difflib.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\dis.py to dis.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\__init__.py to distutils\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\archive_util.py to distutils\archive_util.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\cmd.py to distutils\cmd.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\command\__init__.py to distutils\command\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\config.py to distutils\config.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\core.py to distutils\core.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\debug.py to distutils\debug.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\dep_util.py to distutils\dep_util.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\dir_util.py to distutils\dir_util.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\dist.py to distutils\dist.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\errors.py to distutils\errors.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\extension.py to distutils\extension.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\fancy_getopt.py to distutils\fancy_getopt.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\file_util.py to distutils\file_util.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\log.py to distutils\log.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\spawn.py to distutils\spawn.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\sysconfig.py to distutils\sysconfig.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\text_file.py to distutils\text_file.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\util.py to distutils\util.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\version.py to distutils\version.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\distutils\versionpredicate.py to distutils\versionpredicate.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\doctest.py to doctest.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\dummy_thread.py to dummy_thread.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\dummy_threading.py to dummy_threading.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\__init__.py to email\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\_parseaddr.py to email\_parseaddr.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\base64mime.py to email\base64mime.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\charset.py to email\charset.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\encoders.py to email\encoders.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\errors.py to email\errors.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\feedparser.py to email\feedparser.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\generator.py to email\generator.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\header.py to email\header.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\iterators.py to email\iterators.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\message.py to email\message.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\mime\__init__.py to email\mime\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\parser.py to email\parser.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\quoprimime.py to email\quoprimime.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\email\utils.py to email\utils.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\__init__.py to encodings\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\aliases.py to encodings\aliases.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\ascii.py to encodings\ascii.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\base64_codec.py to encodings\base64_codec.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\big5.py to encodings\big5.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\big5hkscs.py to encodings\big5hkscs.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\bz2_codec.py to encodings\bz2_codec.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\charmap.py to encodings\charmap.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp037.py to encodings\cp037.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp1006.py to encodings\cp1006.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp1026.py to encodings\cp1026.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp1140.py to encodings\cp1140.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp1250.py to encodings\cp1250.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp1251.py to encodings\cp1251.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp1252.py to encodings\cp1252.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp1253.py to encodings\cp1253.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp1254.py to encodings\cp1254.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp1255.py to encodings\cp1255.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp1256.py to encodings\cp1256.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp1257.py to encodings\cp1257.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp1258.py to encodings\cp1258.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp424.py to encodings\cp424.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp437.py to encodings\cp437.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp500.py to encodings\cp500.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp720.py to encodings\cp720.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp737.py to encodings\cp737.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp775.py to encodings\cp775.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp850.py to encodings\cp850.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp852.py to encodings\cp852.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp855.py to encodings\cp855.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp856.py to encodings\cp856.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp857.py to encodings\cp857.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp858.py to encodings\cp858.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp860.py to encodings\cp860.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp861.py to encodings\cp861.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp862.py to encodings\cp862.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp863.py to encodings\cp863.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp864.py to encodings\cp864.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp865.py to encodings\cp865.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp866.py to encodings\cp866.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp869.py to encodings\cp869.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp874.py to encodings\cp874.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp875.py to encodings\cp875.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp932.py to encodings\cp932.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp949.py to encodings\cp949.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\cp950.py to encodings\cp950.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\euc_jis_2004.py to encodings\euc_jis_2004.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\euc_jisx0213.py to encodings\euc_jisx0213.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\euc_jp.py to encodings\euc_jp.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\euc_kr.py to encodings\euc_kr.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\gb18030.py to encodings\gb18030.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\gb2312.py to encodings\gb2312.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\gbk.py to encodings\gbk.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\hex_codec.py to encodings\hex_codec.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\hp_roman8.py to encodings\hp_roman8.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\hz.py to encodings\hz.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\idna.py to encodings\idna.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso2022_jp.py to encodings\iso2022_jp.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso2022_jp_1.py to encodings\iso2022_jp_1.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso2022_jp_2.py to encodings\iso2022_jp_2.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso2022_jp_2004.py to encodings\iso2022_jp_2004.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso2022_jp_3.py to encodings\iso2022_jp_3.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso2022_jp_ext.py to encodings\iso2022_jp_ext.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso2022_kr.py to encodings\iso2022_kr.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_1.py to encodings\iso8859_1.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_10.py to encodings\iso8859_10.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_11.py to encodings\iso8859_11.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_13.py to encodings\iso8859_13.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_14.py to encodings\iso8859_14.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_15.py to encodings\iso8859_15.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_16.py to encodings\iso8859_16.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_2.py to encodings\iso8859_2.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_3.py to encodings\iso8859_3.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_4.py to encodings\iso8859_4.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_5.py to encodings\iso8859_5.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_6.py to encodings\iso8859_6.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_7.py to encodings\iso8859_7.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_8.py to encodings\iso8859_8.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\iso8859_9.py to encodings\iso8859_9.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\johab.py to encodings\johab.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\koi8_r.py to encodings\koi8_r.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\koi8_u.py to encodings\koi8_u.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\latin_1.py to encodings\latin_1.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\mac_arabic.py to encodings\mac_arabic.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\mac_centeuro.py to encodings\mac_centeuro.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\mac_croatian.py to encodings\mac_croatian.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\mac_cyrillic.py to encodings\mac_cyrillic.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\mac_farsi.py to encodings\mac_farsi.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\mac_greek.py to encodings\mac_greek.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\mac_iceland.py to encodings\mac_iceland.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\mac_latin2.py to encodings\mac_latin2.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\mac_roman.py to encodings\mac_roman.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\mac_romanian.py to encodings\mac_romanian.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\mac_turkish.py to encodings\mac_turkish.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\mbcs.py to encodings\mbcs.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\palmos.py to encodings\palmos.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\ptcp154.py to encodings\ptcp154.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\punycode.py to encodings\punycode.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\quopri_codec.py to encodings\quopri_codec.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\raw_unicode_escape.py to encodings\raw_unicode_escape.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\rot_13.py to encodings\rot_13.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\shift_jis.py to encodings\shift_jis.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\shift_jis_2004.py to encodings\shift_jis_2004.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\shift_jisx0213.py to encodings\shift_jisx0213.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\string_escape.py to encodings\string_escape.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\tis_620.py to encodings\tis_620.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\undefined.py to encodings\undefined.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\unicode_escape.py to encodings\unicode_escape.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\unicode_internal.py to encodings\unicode_internal.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\utf_16.py to encodings\utf_16.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\utf_16_be.py to encodings\utf_16_be.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\utf_16_le.py to encodings\utf_16_le.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\utf_32.py to encodings\utf_32.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\utf_32_be.py to encodings\utf_32_be.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\utf_32_le.py to encodings\utf_32_le.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\utf_7.py to encodings\utf_7.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\utf_8.py to encodings\utf_8.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\utf_8_sig.py to encodings\utf_8_sig.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\uu_codec.py to encodings\uu_codec.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\encodings\zlib_codec.py to encodings\zlib_codec.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\fnmatch.py to fnmatch.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\ftplib.py to ftplib.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\functools.py to functools.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\genericpath.py to genericpath.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\getopt.py to getopt.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\getpass.py to getpass.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\gettext.py to gettext.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\glob.py to glob.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\gzip.py to gzip.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\hashlib.py to hashlib.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\heapq.py to heapq.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\hmac.py to hmac.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\httplib.py to httplib.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\importlib\__init__.py to importlib\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\inspect.py to inspect.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\io.py to io.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\json\__init__.py to json\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\json\decoder.py to json\decoder.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\json\encoder.py to json\encoder.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\json\scanner.py to json\scanner.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\keyword.py to keyword.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\linecache.py to linecache.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\locale.py to locale.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\logging\__init__.py to logging\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\logging\handlers.py to logging\handlers.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\md5.py to md5.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\mimetools.py to mimetools.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\mimetypes.py to mimetypes.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\netrc.py to netrc.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\ntpath.py to ntpath.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\nturl2path.py to nturl2path.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\opcode.py to opcode.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\optparse.py to optparse.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\os.py to os.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\os2emxpath.py to os2emxpath.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\pdb.py to pdb.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\pickle.py to pickle.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\pkgutil.py to pkgutil.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\platform.py to platform.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\plistlib.py to plistlib.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\posixpath.py to posixpath.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\pprint.py to pprint.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\py_compile.py to py_compile.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\quopri.py to quopri.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\random.py to random.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\re.py to re.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\repr.py to repr.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\rfc822.py to rfc822.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\sets.py to sets.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\shlex.py to shlex.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\shutil.py to shutil.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\OpenSSL\SSL.py to OpenSSL\SSL.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\OpenSSL\__init__.py to OpenSSL\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\OpenSSL\_util.py to OpenSSL\_util.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\OpenSSL\crypto.py to OpenSSL\crypto.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\OpenSSL\rand.py to OpenSSL\rand.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\OpenSSL\version.py to OpenSSL\version.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\backports\__init__.py to backports\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\backports\ssl_match_hostname\__init__.py to backports\ssl_match_hostname\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\certifi\__init__.py to certifi\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\certifi\core.py to certifi\core.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cffi\__init__.py to cffi\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cffi\api.py to cffi\api.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cffi\commontypes.py to cffi\commontypes.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cffi\cparser.py to cffi\cparser.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cffi\ffiplatform.py to cffi\ffiplatform.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cffi\gc_weakref.py to cffi\gc_weakref.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cffi\lock.py to cffi\lock.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cffi\model.py to cffi\model.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cffi\vengine_cpy.py to cffi\vengine_cpy.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cffi\vengine_gen.py to cffi\vengine_gen.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cffi\verifier.py to cffi\verifier.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cryptography-0.8-py2.7-win-amd64.egg\cryptography\__about__.py to cryptography\__about__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cryptography-0.8-py2.7-win-amd64.egg\cryptography\__init__.py to cryptography\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cryptography-0.8-py2.7-win-amd64.egg\cryptography\hazmat\__init__.py to cryptography\hazmat\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cryptography-0.8-py2.7-win-amd64.egg\cryptography\hazmat\bindings\__init__.py to cryptography\hazmat\bindings\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cryptography-0.8-py2.7-win-amd64.egg\cryptography\hazmat\bindings\openssl\__init__.py to cryptography\hazmat\bindings\openssl\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cryptography-0.8-py2.7-win-amd64.egg\cryptography\hazmat\bindings\openssl\binding.py to cryptography\hazmat\bindings\openssl\binding.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\cryptography-0.8-py2.7-win-amd64.egg\cryptography\hazmat\bindings\utils.py to cryptography\hazmat\bindings\utils.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\ply\__init__.py to ply\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\ply\lex.py to ply\lex.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\__init__.py to pyasn1\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\codec\__init__.py to pyasn1\codec\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\codec\ber\__init__.py to pyasn1\codec\ber\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\codec\ber\decoder.py to pyasn1\codec\ber\decoder.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\codec\ber\eoo.py to pyasn1\codec\ber\eoo.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\codec\cer\__init__.py to pyasn1\codec\cer\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\codec\cer\decoder.py to pyasn1\codec\cer\decoder.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\codec\der\__init__.py to pyasn1\codec\der\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\codec\der\decoder.py to pyasn1\codec\der\decoder.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\compat\__init__.py to pyasn1\compat\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\compat\octets.py to pyasn1\compat\octets.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\debug.py to pyasn1\debug.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\error.py to pyasn1\error.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\type\__init__.py to pyasn1\type\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\type\base.py to pyasn1\type\base.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\type\char.py to pyasn1\type\char.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\type\constraint.py to pyasn1\type\constraint.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\type\error.py to pyasn1\type\error.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\type\namedtype.py to pyasn1\type\namedtype.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\type\namedval.py to pyasn1\type\namedval.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\type\tag.py to pyasn1\type\tag.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\type\tagmap.py to pyasn1\type\tagmap.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\type\univ.py to pyasn1\type\univ.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyasn1\type\useful.py to pyasn1\type\useful.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pycparser\__init__.py to pycparser\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pycparser\ast_transforms.py to pycparser\ast_transforms.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pycparser\c_ast.py to pycparser\c_ast.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pycparser\c_lexer.py to pycparser\c_lexer.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pycparser\c_parser.py to pycparser\c_parser.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pycparser\ply\__init__.py to pycparser\ply\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pycparser\ply\lex.py to pycparser\ply\lex.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pycparser\ply\yacc.py to pycparser\ply\yacc.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pycparser\plyparser.py to pycparser\plyparser.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\__init__.py to pyreadline\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\clipboard\__init__.py to pyreadline\clipboard\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\clipboard\ironpython_clipboard.py to pyreadline\clipboard\ironpython_clipboard.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\clipboard\no_clipboard.py to pyreadline\clipboard\no_clipboard.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\clipboard\win32_clipboard.py to pyreadline\clipboard\win32_clipboard.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\console\__init__.py to pyreadline\console\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\console\ansi.py to pyreadline\console\ansi.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\console\event.py to pyreadline\console\event.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\console\ironpython_console.py to pyreadline\console\ironpython_console.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\error.py to pyreadline\error.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\keysyms\__init__.py to pyreadline\keysyms\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\keysyms\common.py to pyreadline\keysyms\common.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\keysyms\ironpython_keysyms.py to pyreadline\keysyms\ironpython_keysyms.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\keysyms\keysyms.py to pyreadline\keysyms\keysyms.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\keysyms\winconstants.py to pyreadline\keysyms\winconstants.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\lineeditor\__init__.py to pyreadline\lineeditor\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\lineeditor\history.py to pyreadline\lineeditor\history.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\lineeditor\lineobj.py to pyreadline\lineeditor\lineobj.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\lineeditor\wordmatcher.py to pyreadline\lineeditor\wordmatcher.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\logger.py to pyreadline\logger.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\modes\__init__.py to pyreadline\modes\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\modes\basemode.py to pyreadline\modes\basemode.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\modes\emacs.py to pyreadline\modes\emacs.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\modes\notemacs.py to pyreadline\modes\notemacs.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\modes\vi.py to pyreadline\modes\vi.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\py3k_compat.py to pyreadline\py3k_compat.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\release.py to pyreadline\release.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\rlmain.py to pyreadline\rlmain.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\pyreadline\unicode_helper.py to pyreadline\unicode_helper.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\readline.py to readline.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\__init__.py to requests\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\adapters.py to requests\adapters.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\api.py to requests\api.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\auth.py to requests\auth.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\certs.py to requests\certs.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\compat.py to requests\compat.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\cookies.py to requests\cookies.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\exceptions.py to requests\exceptions.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\hooks.py to requests\hooks.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\models.py to requests\models.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\__init__.py to requests\packages\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\__init__.py to requests\packages\chardet\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\big5freq.py to requests\packages\chardet\big5freq.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\big5prober.py to requests\packages\chardet\big5prober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\chardistribution.py to requests\packages\chardet\chardistribution.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\charsetgroupprober.py to requests\packages\chardet\charsetgroupprober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\charsetprober.py to requests\packages\chardet\charsetprober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\codingstatemachine.py to requests\packages\chardet\codingstatemachine.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\compat.py to requests\packages\chardet\compat.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\constants.py to requests\packages\chardet\constants.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\cp949prober.py to requests\packages\chardet\cp949prober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\escprober.py to requests\packages\chardet\escprober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\escsm.py to requests\packages\chardet\escsm.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\eucjpprober.py to requests\packages\chardet\eucjpprober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\euckrfreq.py to requests\packages\chardet\euckrfreq.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\euckrprober.py to requests\packages\chardet\euckrprober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\euctwfreq.py to requests\packages\chardet\euctwfreq.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\euctwprober.py to requests\packages\chardet\euctwprober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\gb2312freq.py to requests\packages\chardet\gb2312freq.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\gb2312prober.py to requests\packages\chardet\gb2312prober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\hebrewprober.py to requests\packages\chardet\hebrewprober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\jisfreq.py to requests\packages\chardet\jisfreq.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\jpcntx.py to requests\packages\chardet\jpcntx.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\langbulgarianmodel.py to requests\packages\chardet\langbulgarianmodel.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\langcyrillicmodel.py to requests\packages\chardet\langcyrillicmodel.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\langgreekmodel.py to requests\packages\chardet\langgreekmodel.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\langhebrewmodel.py to requests\packages\chardet\langhebrewmodel.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\langhungarianmodel.py to requests\packages\chardet\langhungarianmodel.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\langthaimodel.py to requests\packages\chardet\langthaimodel.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\latin1prober.py to requests\packages\chardet\latin1prober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\mbcharsetprober.py to requests\packages\chardet\mbcharsetprober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\mbcsgroupprober.py to requests\packages\chardet\mbcsgroupprober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\mbcssm.py to requests\packages\chardet\mbcssm.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\sbcharsetprober.py to requests\packages\chardet\sbcharsetprober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\sbcsgroupprober.py to requests\packages\chardet\sbcsgroupprober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\sjisprober.py to requests\packages\chardet\sjisprober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\universaldetector.py to requests\packages\chardet\universaldetector.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\chardet\utf8prober.py to requests\packages\chardet\utf8prober.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\__init__.py to requests\packages\urllib3\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\_collections.py to requests\packages\urllib3\_collections.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\connection.py to requests\packages\urllib3\connection.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\connectionpool.py to requests\packages\urllib3\connectionpool.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\contrib\__init__.py to requests\packages\urllib3\contrib\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\contrib\pyopenssl.py to requests\packages\urllib3\contrib\pyopenssl.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\exceptions.py to requests\packages\urllib3\exceptions.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\fields.py to requests\packages\urllib3\fields.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\filepost.py to requests\packages\urllib3\filepost.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\packages\__init__.py to requests\packages\urllib3\packages\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\packages\ordered_dict.py to requests\packages\urllib3\packages\ordered_dict.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\packages\six.py to requests\packages\urllib3\packages\six.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\packages\ssl_match_hostname\__init__.py to requests\packages\urllib3\packages\ssl_match_hostname\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\packages\ssl_match_hostname\_implementation.py to requests\packages\urllib3\packages\ssl_match_hostname\_implementation.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\poolmanager.py to requests\packages\urllib3\poolmanager.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\request.py to requests\packages\urllib3\request.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\response.py to requests\packages\urllib3\response.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\util\__init__.py to requests\packages\urllib3\util\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\util\connection.py to requests\packages\urllib3\util\connection.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\util\request.py to requests\packages\urllib3\util\request.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\util\response.py to requests\packages\urllib3\util\response.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\util\retry.py to requests\packages\urllib3\util\retry.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\util\ssl_.py to requests\packages\urllib3\util\ssl_.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\util\timeout.py to requests\packages\urllib3\util\timeout.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\packages\urllib3\util\url.py to requests\packages\urllib3\util\url.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\sessions.py to requests\sessions.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\status_codes.py to requests\status_codes.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\structures.py to requests\structures.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\requests\utils.py to requests\utils.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\six.py to six.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\websocket\__init__.py to websocket\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\websocket\_abnf.py to websocket\_abnf.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\websocket\_app.py to websocket\_app.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\websocket\_core.py to websocket\_core.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\websocket\_exceptions.py to websocket\_exceptions.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\websocket\_handshake.py to websocket\_handshake.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\websocket\_http.py to websocket\_http.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\websocket\_logging.py to websocket\_logging.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\websocket\_socket.py to websocket\_socket.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\websocket\_ssl_compat.py to websocket\_ssl_compat.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\websocket\_url.py to websocket\_url.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\websocket\_utils.py to websocket\_utils.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\win32\lib\netbios.py to netbios.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\win32\lib\win32con.py to win32con.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\win32\lib\win32evtlogutil.py to win32evtlogutil.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\site-packages\win32\lib\winerror.py to winerror.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\smtplib.py to smtplib.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\socket.py to socket.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\sre.py to sre.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\sre_compile.py to sre_compile.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\sre_constants.py to sre_constants.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\sre_parse.py to sre_parse.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\ssl.py to ssl.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\stat.py to stat.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\string.py to string.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\stringprep.py to stringprep.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\struct.py to struct.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\subprocess.py to subprocess.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\tarfile.py to tarfile.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\tempfile.py to tempfile.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\textwrap.py to textwrap.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\threading.py to threading.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\token.py to token.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\tokenize.py to tokenize.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\traceback.py to traceback.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\types.py to types.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\unittest\__init__.py to unittest\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\unittest\case.py to unittest\case.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\unittest\loader.py to unittest\loader.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\unittest\main.py to unittest\main.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\unittest\result.py to unittest\result.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\unittest\runner.py to unittest\runner.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\unittest\signals.py to unittest\signals.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\unittest\suite.py to unittest\suite.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\unittest\util.py to unittest\util.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\urllib.py to urllib.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\urllib2.py to urllib2.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\urlparse.py to urlparse.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\uu.py to uu.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\uuid.py to uuid.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\warnings.py to warnings.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\weakref.py to weakref.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\xml\__init__.py to xml\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\xml\parsers\__init__.py to xml\parsers\__init__.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\xml\parsers\expat.py to xml\parsers\expat.pyc
+skipping byte-compilation of C:\Users\Kodon\Anaconda\lib\zipfile.py to zipfile.pyc
+byte-compiling C:\Users\Kodon\src\nodeapp\listenerWS\build\bdist.win-amd64\winexe\temp\_cffi_backend.py to _cffi_backend.pyc
+byte-compiling C:\Users\Kodon\src\nodeapp\listenerWS\build\bdist.win-amd64\winexe\temp\_ctypes.py to _ctypes.pyc
+byte-compiling C:\Users\Kodon\src\nodeapp\listenerWS\build\bdist.win-amd64\winexe\temp\_hashlib.py to _hashlib.pyc
+byte-compiling C:\Users\Kodon\src\nodeapp\listenerWS\build\bdist.win-amd64\winexe\temp\_socket.py to _socket.pyc
+byte-compiling C:\Users\Kodon\src\nodeapp\listenerWS\build\bdist.win-amd64\winexe\temp\_ssl.py to _ssl.pyc
+byte-compiling C:\Users\Kodon\src\nodeapp\listenerWS\build\bdist.win-amd64\winexe\temp\bz2.py to bz2.pyc
+byte-compiling C:\Users\Kodon\src\nodeapp\listenerWS\build\bdist.win-amd64\winexe\temp\pyexpat.py to pyexpat.pyc
+byte-compiling C:\Users\Kodon\src\nodeapp\listenerWS\build\bdist.win-amd64\winexe\temp\select.py to select.pyc
+byte-compiling C:\Users\Kodon\src\nodeapp\listenerWS\build\bdist.win-amd64\winexe\temp\unicodedata.py to unicodedata.pyc
+byte-compiling C:\Users\Kodon\src\nodeapp\listenerWS\build\bdist.win-amd64\winexe\temp\win32api.py to win32api.pyc
+byte-compiling C:\Users\Kodon\src\nodeapp\listenerWS\build\bdist.win-amd64\winexe\temp\win32evtlog.py to win32evtlog.pyc
+byte-compiling C:\Users\Kodon\src\nodeapp\listenerWS\build\bdist.win-amd64\winexe\temp\win32pipe.py to win32pipe.pyc
+byte-compiling C:\Users\Kodon\src\nodeapp\listenerWS\build\bdist.win-amd64\winexe\temp\win32wnet.py to win32wnet.pyc
+*** copy extensions ***
+*** copy dlls ***
+copying C:\Users\Kodon\Anaconda\lib\site-packages\py2exe\run.exe -> C:\Users\Kodon\src\nodeapp\listenerWS\dist\sentHTTP.exe
+The following modules appear to be missing
+['Carbon', 'Carbon.Files', 'IronPythonConsole', 'System', 'System.Windows.Forms.Clipboard', '_dummy_thread', '_scproxy', '_sysconfigdata', '_thread', 'builtins', 'cffi._pycparser', 'clr', 'console', 'http', 'http.client', 'http.cookies', 'importlib.machinery', 'modes.editingmodes', 'ndg.httpsclient.ssl_peer_verification', 'ndg.httpsclient.subj_alt_name', 'packages.ssl_match_hostname.CertificateError', 'packages.ssl_match_hostname.match_hostname', 'packages.urllib3.util.Timeout', 'packages.urllib3.util.parse_url', 'pyreadline.keysyms.make_KeyPress', 'pyreadline.keysyms.make_KeyPress_from_keydescr', 'pyreadline.keysyms.make_keyinfo', 'pyreadline.keysyms.make_keysym', 'queue', 'simplejson', 'six.moves.urllib.parse', 'startup', 'urllib.parse', 'urllib.request']
+
+*** binary dependencies ***
+Your executable(s) also depend on these dlls which are not included,
+you may or may not need to distribute them.
+
+Make sure you have the license if you distribute any of them, and
+make sure you don't distribute files belonging to the operating system.
+
+   OLEAUT32.dll - C:\Windows\system32\OLEAUT32.dll
+   USER32.dll - C:\Windows\system32\USER32.dll
+   SHELL32.dll - C:\Windows\system32\SHELL32.dll
+   KERNEL32.dll - C:\Windows\system32\KERNEL32.dll
+   ADVAPI32.dll - C:\Windows\system32\ADVAPI32.dll
+   NETAPI32.dll - C:\Windows\system32\NETAPI32.dll
+   msvcrt.dll - C:\Windows\system32\msvcrt.dll
+   WS2_32.dll - C:\Windows\system32\WS2_32.dll
+   GDI32.dll - C:\Windows\system32\GDI32.dll
+   VERSION.dll - C:\Windows\system32\VERSION.dll
+   ole32.dll - C:\Windows\system32\ole32.dll
+   ntdll.dll - C:\Windows\system32\ntdll.dll
