@@ -52,7 +52,7 @@ wss.on('connection', function connection(ws) {
  
     console.log('creating request');
     var request = new sql.Request(transaction);
-    var str_input = ('insert into dbo.XYtest (xData, yData) values (' + data['xData'] +', ' + data['yData'] + ')');
+    var str_input = ('insert into DogsData.dbo.tReading (iReadingsKey, iTypeKey, iUnitKey, datDateTime, dValue) values (' + data['iReadingsKey'] +', ' + data['iTypeKey'] + data['iUnitKey'] +', ' + data['datDateTime'] +', ' + data['dValue'] +')');
     console.log(str_input)
     request.query(str_input, function(err, recordset) {
         // ... error checks 
