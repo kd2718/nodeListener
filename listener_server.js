@@ -52,11 +52,15 @@ wss.on('connection', function connection(ws) {
  
     console.log('creating request');
     var request = new sql.Request(transaction);
-    var str_input = ('insert into DogsData.dbo.tReading (iReadingsKey, iTypeKey, iUnitKey, datDateTime, dValue) values (' + data['iReadingsKey'] +', ' + data['iTypeKey'] + data['iUnitKey'] +', ' + data['datDateTime'] +', ' + data['dValue'] +')');
+    // INSERT INTO tReading (iTypeNumber, iUnitNumber, datDateTime, dValue) VALUES (20, 15, '04/22/2015 3:55 am', 115)
+    var str_input = ('insert into DogsData.dbo.tReading (iTypeNumber, iUnitNumber, datDateTime, dValue) values (' + data['iTypeNumber'] + data['iUnitNumber'] +', ' + data['datDateTime'] +', ' + data['dValue'] +')');
     console.log(str_input)
     request.query(str_input, function(err, recordset) {
         // ... error checks 
- console.log('commiting transaction');
+        if(err){
+                console.log(err);
+               }
+        console.log('commiting transaction');
         transaction.commit(function(err, recordset) {
             // ... error checks 
                 if(err){
