@@ -36,14 +36,14 @@ try:
    while True:
 #      soilOne = ReadChannel(2)
 #      soilTwo = ReadChannel(3)
-      soilOne = random.randint(0,100)
+      soilOne = random.randint(1000,1100)
       
       print soilOne
       # Rob I need more info on what Rick is expecting ehre. I Tried to debug this, but its too late now...
       # INSERT INTO tReading (iTypeNumber, iUnitNumber, datDateTime, dValue) VALUES (20, 15, '04/22/2015 3:55 am', 115)
       payload = {
-      'iTypeNumber': 20, 
-      'iUnitNumber': 15, 
+      'iTypeNumber': 30, 
+      'iUnitNumber': 25, 
       'datDateTime': str(datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]),
       'dValue': soilOne, # just sending 1 right now...
       }
@@ -56,7 +56,7 @@ try:
       #out  = ws.recv()
       #print out
       print"sleeping... \n\n"
-      time.sleep(4)
+      time.sleep(.5)
 except Exception as e:
    print e.message, e.args
 finally:

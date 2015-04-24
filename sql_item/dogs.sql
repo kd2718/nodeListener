@@ -290,4 +290,6 @@ INSERT INTO tReading (iTypeNumber, iUnitNumber, datDateTime, dValue) VALUES (20,
 
 --The SQL statement the web page will give to the graphing unit (subject to approval).
 SELECT datDateTime, dValue FROM tReading Where iTypeNumber = 20 AND iUnitNumber = 15 AND datDateTime > '04/22/2015 3:00 am' AND datDateTime < '04/23/2015 3:30 am' ORDER BY datDateTime
+-- kory check
+SELECT top 5 [datDateTime], [dValue] FROM [DogsData].[dbo].[tReading] Where [iTypeNumber] = 20 AND [iUnitNumber] = 15 ORDER BY [datDateTime] DESC;
 

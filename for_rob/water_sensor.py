@@ -7,7 +7,7 @@ import spidev
 import time
 import os # not sure what this is needed for... KD
 import json
-import websocket
+import websocket # https://pypi.python.org/pypi/websocket-client
 from datetime import datetime
 
 import random
@@ -37,24 +37,18 @@ try:
       soilTwo = ReadChannel(3)
       #soilOne = random.randint(0,100)
       
-      print soilOne
-      # Rob I need more info on what Rick is expecting ehre. I Tried to debug this, but its too late now...
+      print soilOne # if this is python 3, change all the print to print()
+      
       payload = {
-      'iReadingsKey': 1,# what
-      'iTypeKey': 1, # are..
-      'iUnitKey': 1, # these?
-      'datDateTime': datetime.now().isoformat(),
-      'dValue': soilOne, # just sending 1 rihgt now...
+      'iTypeNumber': 20, # place-holder while we get user authentication figured out
+      'iUnitNumber': 15, # place-holder while we get user authentication figured out
+      'datDateTime': str(datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]),
+      'dValue': soilOne, # just sending 1 right now...
       }
 
       # Output
-      print "Soil1=",soilOne," : Soil2=",soilTwo
-      def date_handler(obj):
-          return obj.isoformat() if hasattr(obj, 'isoformat') else obj
-
       ws.send(json.dumps(payload, default=date_handler))
-      out  = ws.recv()
-      print out
+      
       time.sleep(0.5)
 except Exception as e:
    print e.message, e.args
