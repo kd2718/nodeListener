@@ -10,6 +10,7 @@ import json
 import websocket
 from datetime import datetime
 
+
 import random
 
 
@@ -43,7 +44,7 @@ try:
       payload = {
       'iTypeNumber': 20, 
       'iUnitNumber': 15, 
-      'datDateTime': str(datetime.now()),
+      'datDateTime': str(datetime.now().strftime('%Y-%m-%d %H:%M:%S')),
       'dValue': soilOne, # just sending 1 right now...
       }
 
