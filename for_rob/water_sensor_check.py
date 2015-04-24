@@ -18,10 +18,10 @@ spi = spidev.SpiDev()
 spi.open(0,0)
 
 # Function to read SPI data from MCP3008 chip
-def ReadChannel(channel):
-   adc = spi.xfer2([1,(8+channel)<<4,0])
-   data = ((adc[1]&3) << 8) + adc[2]
-   return data
+#def ReadChannel(channel):
+#   adc = spi.xfer2([1,(8+channel)<<4,0])
+#   data = ((adc[1]&3) << 8) + adc[2]
+#   return data
 
 count = 0
    
@@ -33,26 +33,24 @@ try:
    # Main loop - read raw data and display
 
    while True:
-      soilOne = ReadChannel(2)
-      soilTwo = ReadChannel(3)
-      #soilOne = random.randint(0,100)
+#      soilOne = ReadChannel(2)
+#      soilTwo = ReadChannel(3)
+      soilOne = random.randint(0,100)
       
       print soilOne
       # Rob I need more info on what Rick is expecting ehre. I Tried to debug this, but its too late now...
+      # INSERT INTO tReading (iTypeNumber, iUnitNumber, datDateTime, dValue) VALUES (20, 15, '04/22/2015 3:55 am', 115)
       payload = {
-      'iReadingsKey': 1,# what
-      'iTypeKey': 1, # are..
-      'iUnitKey': 1, # these?
-      'datDateTime': datetime.now().isoformat(),
-      'dValue': soilOne, # just sending 1 rihgt now...
+      'iTypeNumber': 20, 
+      'iUnitNumber': 15, 
+      'datDateTime': str(datetime.now()),
+      'dValue': soilOne, # just sending 1 right now...
       }
 
       # Output
-      print "Soil1=",soilOne," : Soil2=",soilTwo
-      def date_handler(obj):
-          return obj.isoformat() if hasattr(obj, 'isoformat') else obj
+      #print "Soil1=",soilOne," : Soil2=",soilTwo
 
-      ws.send(json.dumps(payload, default=date_handler))
+      ws.send(json.dumps(payload))
       out  = ws.recv()
       print out
       time.sleep(0.5)
