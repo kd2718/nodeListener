@@ -3,7 +3,7 @@
 # Monitor two soil sensors on MCP3008, ch 2 and 3 
 # (pin 3 and 4)
 
-import spidev
+#import spidev
 import time
 import os # not sure what this is needed for... KD
 import json
@@ -14,8 +14,8 @@ import random
 
 
 # Open SPI bus
-spi = spidev.SpiDev()
-spi.open(0,0)
+#spi = spidev.SpiDev()
+#spi.open(0,0)
 
 # Function to read SPI data from MCP3008 chip
 #def ReadChannel(channel):
