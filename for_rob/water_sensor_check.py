@@ -56,7 +56,7 @@ try:
       #out  = ws.recv()
       #print out
       print"sleeping... \n\n"
-      time.sleep(4)
+      time.sleep(1)
 except Exception as e:
    print e.message, e.args
 finally:
