@@ -21,9 +21,9 @@ spass = 'aaaaaaaa'
 try:
     print "opening connection"
     conn = pymssql.connect(server=server, user=suser, password=spass, database="DogsData")
-    print "is it open?"
 except Exception as e:
     print e
+
 
 ion()
 
@@ -31,35 +31,29 @@ ion()
 cursor = conn.cursor()
 k = True
 #fig = plt.figure()
-count =9
 
-cursor.execute('SELECT top 5 [datDateTime], [dValue] FROM [DogsData].[dbo].[tReading] Where [iTypeNumber] = 20 AND [iUnitNumber] = 15 ORDER BY [datDateTime] DESC')
+select_str = ('SELECT top 20 [datDateTime], [dValue]  FROM [DogsData].[dbo].[tReading] Where [iTypeNumber] = 20 AND [iUnitNumber] = 15 GROUP BY [datDateTime], [dValue] ORDER BY max([datDateTime]) DESC')
 
-l1 = cursor.fetchall()
+cursor.execute(select_str)
 
 dat = []
-for i in l1[::-1]:
-    dat.append(i[1])
+for row in cursor:
+    dat.append(row[1])
 
 line, = plot(dat)    
 
+print "starting main loop"
+while True:
 
-while count > 0:
+    cursor.execute(select_str)
 
-    cursor.execute('SELECT top 5 [datDateTime], [dValue] FROM [DogsData].[dbo].[tReading] Where [iTypeNumber] = 20 AND [iUnitNumber] = 15 ORDER BY [datDateTime] DESC')
-
-    #l1 = cursor.fetchall()
-    l1 = cursor.fetchmany()
-
-    print 'for loop'
     dat = []
-    for i in l1[::-1]:
-        dat.append(list(i)[1])
-    line.set_ydata(dat)
+    for row in cursor:
+        dat.append(row[1])
+        
+    line.set_ydata(dat[::-1])
     draw()
     
-    time.sleep(1)
-    
-    count += 1
+    time.sleep(.6)
 
 conn.close()
