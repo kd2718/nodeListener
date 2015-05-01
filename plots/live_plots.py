@@ -14,6 +14,8 @@ from pylab import *
 # Login: sd_admin
 # password: aaaaaaaa
 
+delay = .03334
+
 server = 'csc687-instance.civ7qi4ah44w.us-west-1.rds.amazonaws.com'
 suser = 'sd_admin'
 spass = 'aaaaaaaa'
@@ -54,6 +56,6 @@ while True:
     line.set_ydata(dat[::-1])
     draw()
     
-    time.sleep(.6)
+    time.sleep(delay)
 
 conn.close()
