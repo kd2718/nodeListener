@@ -1,4 +1,10 @@
 // node listener server
+/*
+* This is the node.js listener server. It writteh wtih NOde.js, witch is a form of javascript.
+* Node is a non-blocking language, it is perfect for real time projects. Peter had 
+* mentioned 
+
+*/
 (function(){
 var WebSocketServer = require('ws').Server;
 var wss = new WebSocketServer({ port: 8080 });
@@ -67,29 +73,12 @@ wss.on('connection', function connection(ws) {
                 console.log(err);
                }
             console.log(recordset);
-            console.log("Transaction commited.");
+            console.log("Transaction committed.");
         });
     });
 });
     
-    /*
-    request.query('select 1 as number', function(err, recordset) {
-        // ... error checks 
-        
-        console.dir(recordset);
-    });
-    
-    // Stored Procedure 
-    
-    var request = new sql.Request(connection);
-    request.input('input_parameter', sql.Int, 10);
-    request.output('output_parameter', sql.VarChar(50));
-    request.execute('procedure_name', function(err, recordsets, returnValue) {
-        // ... error checks 
-        
-        console.dir(recordsets);
-    });
-    */
+
    }); 
     /////////////////////////
     

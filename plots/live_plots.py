@@ -1,3 +1,7 @@
+# THis is a ruff draft for serverside plotting for csc 687. This will 
+# produce the actual media files to be displayed on the website created
+# by Rick. This program needs extensive work to integrate wtih Rick's tools properly.
+
 # plot all the things...
 
 import pymssql
