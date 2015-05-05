@@ -25,7 +25,6 @@ import random
 #   return data
 
 count = 0
-   
 try:   
    print 'trying to create socket'
    ws = websocket.WebSocket()
@@ -47,12 +46,14 @@ try:
       'datDateTime': str(datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]),
       'dValue': soilOne, # just sending 1 right now...
       }
+      print payload
 
       # Output
       #print "Soil1=",soilOne," : Soil2=",soilTwo
       print "sending data"
       ws.send(json.dumps(payload))
       print "data has been sent \n"
+      # check ws for flush...
       #out  = ws.recv()
       #print out
       print"sleeping... \n\n"

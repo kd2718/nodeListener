@@ -1,0 +1,9 @@
+rate: // seconds, how often the plot should update
+xscale: // how many points to display
+ymax: // y maximum
+ymin: // y minimum
+title: // title for plot
+xlabel: // x axis label
+ylabel: // yaxis label
+color: // lets stick to simple red, green, blue, etc. for now
+
