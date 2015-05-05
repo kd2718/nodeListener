@@ -1,4 +1,10 @@
 // node listener server
+/*
+* This is the node.js listener server. It writteh wtih NOde.js, witch is a form of javascript.
+* Node is a non-blocking language, it is perfect for real time projects. Peter had 
+* mentioned 
+
+*/
 (function(){
 var WebSocketServer = require('ws').Server;
 var wss = new WebSocketServer({ port: 8080 });

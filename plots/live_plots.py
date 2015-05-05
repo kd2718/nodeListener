@@ -1,3 +1,7 @@
+# THis is a ruff draft for serverside plotting for csc 687. This will 
+# produce the actual media files to be displayed on the website created
+# by Rick. This program needs extensive work to integrate wtih Rick's tools properly.
+
 # plot all the things...
 
 import pymssql
@@ -13,6 +17,8 @@ from pylab import *
 # Authentication: SQL Server Authentication
 # Login: sd_admin
 # password: aaaaaaaa
+
+delay = .03334
 
 server = 'csc687-instance.civ7qi4ah44w.us-west-1.rds.amazonaws.com'
 suser = 'sd_admin'
@@ -32,7 +38,7 @@ cursor = conn.cursor()
 k = True
 #fig = plt.figure()
 
-select_str = ('SELECT top 20 [datDateTime], [dValue]  FROM [DogsData].[dbo].[tReading] Where [iTypeNumber] = 20 AND [iUnitNumber] = 15 GROUP BY [datDateTime], [dValue] ORDER BY max([datDateTime]) DESC')
+select_str = ('SELECT top 200 [datDateTime], [dValue]  FROM [DogsData].[dbo].[tReading] Where [iTypeNumber] = 20 AND [iUnitNumber] = 15 GROUP BY [datDateTime], [dValue] ORDER BY max([datDateTime]) DESC')
 
 cursor.execute(select_str)
 
@@ -54,6 +60,6 @@ while True:
     line.set_ydata(dat[::-1])
     draw()
     
-    time.sleep(.6)
+    time.sleep(delay)
 
 conn.close()
