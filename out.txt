@@ -1,0 +1,19 @@
+C:\Users\cheri\src\njs\nodeListener
+├─┬ mssql@2.1.2
+│ ├── generic-pool@2.2.0
+│ ├─┬ promise@6.1.0
+│ │ └── asap@1.0.0
+│ └─┬ tedious@1.11.0
+│   ├── big-number@0.3.1
+│   ├── iconv-lite@0.4.7
+│   └── sprintf@0.1.5
+└─┬ ws@0.7.1
+  ├─┬ bufferutil@1.0.1
+  │ ├── bindings@1.2.1
+  │ └── nan@1.6.2
+  ├── options@0.0.6
+  ├── ultron@1.0.1
+  └─┬ utf-8-validate@1.0.1
+    ├── bindings@1.2.1
+    └── nan@1.6.2
+
