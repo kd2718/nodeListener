@@ -28,3 +28,4 @@ node_modules
 
 matplotlib_src/*
 plots/*.csv
+plots/dist/*

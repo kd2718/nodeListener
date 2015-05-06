@@ -10,7 +10,7 @@ import time
 from datetime import datetime
 import numpy as np
 import matplotlib.animation as animation
-from pylab import *
+from pylab import ion, plot, draw
 
 # Server type: Database Engine
 # Server name: csc687-instance.civ7qi4ah44w.us-west-1.rds.amazonaws.com,1433
