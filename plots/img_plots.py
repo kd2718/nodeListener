@@ -21,7 +21,7 @@ from pylab import ion, plot, draw
 # Login: sd_admin
 # password: aaaaaaaa
 
-delay = .03334
+delay = .5
 
 server = 'csc687-instance.civ7qi4ah44w.us-west-1.rds.amazonaws.com'
 suser = 'sd_admin'
@@ -62,7 +62,7 @@ while True:
         
     line.set_ydata(dat[::-1])
     #draw()
-    savefig('test.png')
+    plt.savefig('test.png')
     
     time.sleep(delay)
 
