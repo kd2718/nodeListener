@@ -38,7 +38,7 @@ cursor = conn.cursor()
 k = True
 #fig = plt.figure()
 
-select_str = ('SELECT top 200 [datDateTime], [dValue]  FROM [DogsData].[dbo].[tReading] Where [iTypeNumber] = 20 AND [iUnitNumber] = 15 GROUP BY [datDateTime], [dValue] ORDER BY max([datDateTime]) DESC')
+select_str = ('SELECT top 20 [datDateTime], [dValue]  FROM [DogsData].[dbo].[tReading] Where [iTypeNumber] = 20 AND [iUnitNumber] = 15 GROUP BY [datDateTime], [dValue] ORDER BY max([datDateTime]) DESC')
 
 cursor.execute(select_str)
 

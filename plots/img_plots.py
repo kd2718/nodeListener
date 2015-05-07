@@ -9,6 +9,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import pymssql
+import _mssql
 import time
 from datetime import datetime
 import numpy as np
@@ -21,7 +22,7 @@ from pylab import ion, plot, draw
 # Login: sd_admin
 # password: aaaaaaaa
 
-delay = .5
+delay = 1
 
 server = 'csc687-instance.civ7qi4ah44w.us-west-1.rds.amazonaws.com'
 suser = 'sd_admin'

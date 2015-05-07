@@ -23,7 +23,7 @@ import random
 #   adc = spi.xfer2([1,(8+channel)<<4,0])
 #   data = ((adc[1]&3) << 8) + adc[2]
 #   return data
-
+delay = 1
 count = 0
 try:   
    print 'trying to create socket'
@@ -57,7 +57,7 @@ try:
       #out  = ws.recv()
       #print out
       print"sleeping... \n\n"
-      time.sleep(.5)
+      time.sleep(delay)
 except Exception as e:
    print e.message, e.args
 finally:
