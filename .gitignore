@@ -30,3 +30,4 @@ matplotlib_src/*
 plots/*.csv
 plots/dist/*
 plots/build/*
+*.png
