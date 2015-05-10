@@ -31,3 +31,4 @@ plots/*.csv
 plots/dist/*
 plots/build/*
 *.png
+*.xlsx

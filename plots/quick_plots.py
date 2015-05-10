@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 #import pymssql
 #import _mssql
 #import time
-#from datetime import datetime
+from datetime import datetime
 #import numpy as np
 #from pylab import plot
 from sys import argv
@@ -64,8 +64,10 @@ y = []
 with open(ini['data_in'],'r') as dat:
     data = csv.reader(dat)
     for d in data:
-        x.append(int(d[0]))
-        y.append(int(d[1]))
+        # this is the exact format from the server
+        xdate = datetime.strptime(d[0],'%Y-%m-%d %H:%M:%S.%f')
+        x.append(xdate)
+        y.append(float(d[1]))
 
 plt.plot(x,y)
 plt.xlabel(ini['xlabel'])
@@ -75,4 +77,5 @@ print x[1], x[-1], int(ini['ymin']), int(ini['ymax'])
 plt.axis([min(x), max(x), int(ini['ymin']), int(ini['ymax'])])
 out_loc = os.path.join(ini['output_location'], ini['output_file'])
 print out_loc
+fig.autofmt_xdate()
 plt.savefig(out_loc)
