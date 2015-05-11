@@ -14,12 +14,7 @@
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-#import pymssql
-#import _mssql
-#import time
 from datetime import datetime
-#import numpy as np
-#from pylab import plot
 from sys import argv
 import os
 import csv
@@ -47,9 +42,6 @@ print os.path.dirname('in.csv')
 # output_file,name.png
 # data_in,in.csv
 
-
-# get file path and name
-# defalut ini values
 ini = {}
 full_path = argv[1]
 
@@ -69,6 +61,7 @@ with open(ini['data_in'],'r') as dat:
         x.append(xdate)
         y.append(float(d[1]))
 
+# use ini defaults if not provided
 plt.plot(x,y)
 plt.xlabel(ini['xlabel'])
 plt.ylabel(ini['ylabel'])
