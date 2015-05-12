@@ -27,6 +27,18 @@ var config = {
 
  console.log('created server');
 ///////////////////////////////////////////////
+var body = 'Node Listener for datatrip application. Please visit our main site: <a href="http://plotdatatrip.com/">plotdatatrip.com</a>' 
+var server = http.createServer(function(request, response) {
+    console.log((new Date()) + ' Received request for ' + request.url);
+    response.writeHead(200,{
+        'Content-Length': body.length,
+        'Content-Type': 'text/html',
+    });
+    response.end(body);
+});
+server.listen(8080, function() {
+    console.log((new Date()) + ' Server is listening on port 8080');
+});
 
 ///////////////////////////////////////////
  
