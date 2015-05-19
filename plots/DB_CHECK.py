@@ -33,12 +33,12 @@ cursor = conn.cursor()
 k = True
 #fig = plt.figure()
 
-select_str = ('SELECT top 2000 [datDateTime], [dValue], [iTypeNumber], [iUnitNumber]  FROM [DogsData].[dbo].[tReading] GROUP BY [datDateTime], [dValue], [iTypeNumber], [iUnitNumber] ORDER BY max([datDateTime]) DESC')
+select_str = ('SELECT top 2000 [datDateTime], [dValue], [iTypeKey], [iUnitKey]  FROM [DogsData].[dbo].[tReading] GROUP BY [datDateTime], [dValue], [iTypeKey], [iUnitKey] ORDER BY max([datDateTime]) DESC')
 
 cursor.execute(select_str)
 
 with open('db_out.csv','w+') as fid:
-    fid.write('datDateTime, dValue, iTypeNumber, iUnitNumber\n')
+    fid.write('datDateTime, dValue, iTypeKey, iUnitKey\n')
     for row in cursor:
         out = str(row[0]) +',' + str(row[1]) + ',' + str(row[2])+ ',' +str(row[3])+  '\n'
         fid.write(out)

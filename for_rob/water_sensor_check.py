@@ -41,8 +41,8 @@ try:
       # Rob I need more info on what Rick is expecting ehre. I Tried to debug this, but its too late now...
       # INSERT INTO tReading (iTypeNumber, iUnitNumber, datDateTime, dValue) VALUES (20, 15, '04/22/2015 3:55 am', 115)
       payload = {
-      'iTypeNumber': 20, 
-      'iUnitNumber': 15, 
+      'iTypeKey': 20, 
+      'iUnitKey': 15, 
       'datDateTime': str(datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]),
       'dValue': soilOne, # just sending 1 right now...
       }

@@ -40,8 +40,8 @@ try:
       print soilOne # if this is python 3, change all the print to print()
       
       payload = {
-      'iTypeNumber': 20, # place-holder while we get user authentication figured out
-      'iUnitNumber': 15, # place-holder while we get user authentication figured out
+      'iTypeKey': 20, # place-holder while we get user authentication figured out
+      'iUnitKey': 15, # place-holder while we get user authentication figured out
       'datDateTime': str(datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]),
       'dValue': soilOne, # just sending 1 right now...
       }
