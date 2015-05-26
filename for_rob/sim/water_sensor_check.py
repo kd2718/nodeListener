@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Monitor two soil sensors on MCP3008, ch 2 and 3 
+# Monitor two soil sensors on MCP3008, ch 2 and 3
 # (pin 3 and 4)
 
 #import spidev
@@ -25,7 +25,7 @@ import random
 #   return data
 delay = 1
 count = 0
-try:   
+try:
    print 'trying to create socket'
    ws = websocket.WebSocket()
    ws.connect("ws://54.67.7.215:8080")
@@ -36,13 +36,13 @@ try:
 #      soilOne = ReadChannel(2)
 #      soilTwo = ReadChannel(3)
       soilOne = random.randint(0,100)
-      
+
       print soilOne
       # Rob I need more info on what Rick is expecting ehre. I Tried to debug this, but its too late now...
       # INSERT INTO tReading (iTypeNumber, iUnitNumber, datDateTime, dValue) VALUES (20, 15, '04/22/2015 3:55 am', 115)
       payload = {
-      'iTypeKey': 20, 
-      'iUnitKey': 15, 
+      'iTypeKey': 12,
+      'iUnitKey': 13,
       'datDateTime': str(datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]),
       'dValue': soilOne, # just sending 1 right now...
       }
